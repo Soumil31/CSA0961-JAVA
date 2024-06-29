@@ -1,17 +1,14 @@
 import java.util.*;
 class reverse
 {
-public static void main(String arg[])
+	public static void main(String[] args)
 	{
 	Scanner sc=new Scanner(System.in);
-	String soumil;
-	System.out.println("enter");
-	soumil=sc.nextLine();
-	String reverse="";
-	for(int i=5;i>=0;i--)
-	{
-	reverse+=soumil.charAt(i);
+	String bhargav= sc.nextLine();
+	String vishwa="";
+	for(int i=6;i>=0;i--)
+	{ vishwa+=bhargav.charAt(i);
 	}
-	System.out.print(reverse);
+	System.out.print(vishwa);
 	}
 }

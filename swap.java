@@ -1,13 +1,14 @@
 class swap
 {
 	public static void main(String arg[])
-	{
-	int a,b,c;
-	a=2;
-	b=4;
-	c=a;
+{
+	int a,b,temp;
+	a=10;
+	b=7;
+	temp=a;
 	a=b;
-	b=c;
-	System.out.println("swapped:"+a+b);
-	}
+	b=temp;
+	System.out.println("after swapping"+a+b);
+
+}
 }
